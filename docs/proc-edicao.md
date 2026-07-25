@@ -1,4 +1,5 @@
 # Processo de Edição
+Em construção.
 
 ## Critérios de Selecção
 
