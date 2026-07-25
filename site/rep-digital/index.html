@@ -1,0 +1,1216 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do Projecto Adamastor.">
+      
+      
+        <meta name="author" content="Projecto Adamastor">
+      
+      
+      
+        <link rel="prev" href="../manual-estilo/">
+      
+      
+        <link rel="next" href="../proc-edicao/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.0.51">
+    
+    
+      
+        <title>Repositório Digital - Projecto Adamastor | Documentação</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../assets/stylesheets/modern/main.62c9b9cc.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../assets/stylesheets/modern/palette.dfe2e883.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="Navegação"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#repositorio-digital" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="./.." title="Projecto Adamastor | Documentação" class="md-header__button md-logo" aria-label="Projecto Adamastor | Documentação" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="Navegação">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Projecto Adamastor | Documentação
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Repositório Digital
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="Pesquisar">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Pesquisar">
+  <button type="button" class="md-search__button">
+    Pesquisar
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./.." class="md-tabs__link">
+        
+  
+  Introdução
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../manual-estilo/" class="md-tabs__link">
+        
+  
+  Manual de Estilo
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+      
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="././" class="md-tabs__link">
+          
+  
+  Organização e Procedimentos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+      
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-tabs__item">
+        <a href="../bibliotecas/" class="md-tabs__link">
+          
+  
+  Recursos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../faq/" class="md-tabs__link">
+        
+  
+  Perguntas Frequentes
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="./.." title="Projecto Adamastor | Documentação" class="md-nav__button md-logo" aria-label="Projecto Adamastor | Documentação" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    Projecto Adamastor | Documentação
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="./.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Introdução
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../manual-estilo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Manual de Estilo
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Organização e Procedimentos
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Organização e Procedimentos
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Repositório Digital
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Repositório Digital
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#nextcloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Nextcloud
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estrutura" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Estrutura
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estrutura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#obras-publicadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Obras Publicadas
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outras-publicacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Outras Publicações
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trabalhos-em-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Trabalhos em Curso
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#templates-e-material-grafico" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Templates e Material Gráfico
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentos-de-suporte" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Documentos de Suporte
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#miscelanea" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Miscelânea
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../proc-edicao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Processo de Edição
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Recursos
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  Recursos
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bibliotecas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Bibliotecas Digitais
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rep-imagens/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Repositórios de Imagens
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Perguntas Frequentes
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#nextcloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Nextcloud
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estrutura" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Estrutura
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estrutura">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#obras-publicadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Obras Publicadas
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#outras-publicacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Outras Publicações
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trabalhos-em-curso" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Trabalhos em Curso
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#templates-e-material-grafico" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Templates e Material Gráfico
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentos-de-suporte" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Documentos de Suporte
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#miscelanea" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Miscelânea
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navegação" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="./.." class="md-path__link">
+        
+  
+  <span class="md-ellipsis">
+    Introdução
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-path__item">
+        <a href="././" class="md-path__link">
+          
+  
+  <span class="md-ellipsis">
+    Organização e Procedimentos
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<h1 id="repositorio-digital">Repositório Digital<a class="headerlink" href="#repositorio-digital" title="Permanent link">&para;</a></h1>
+<h2 id="nextcloud">Nextcloud<a class="headerlink" href="#nextcloud" title="Permanent link">&para;</a></h2>
+<p>O Projecto Adamastor possui um servidor Nextcloud, acessível através do subdomínio <a href="https://cloud.projectoadamastor.org/">https://cloud.projectoadamastor.org/</a>, onde são arquivados todos os documentos produzidos pelos colaboradores, assim como qualquer outro material relevante para a actividade do projecto. </p>
+<p>A cada colaborador é atribuída uma conta própria, através da qual é possível não só consultar o repositório, mas também criar novos documentos ou editar os já existentes. Cada conta tem um limite de armazenamento de 10gb, que poderá ser utilizado para arquivar material de suporte às tarefas executadas no âmbito do projecto.</p>
+<p>Para além da versão web, o Nextcloud Files tem aplicações tanto para desktop (<a href="https://nextcloud.com/install/#desktop-files">Windows, macOS e Linux</a>) como para dispositivos móveis (<a href="https://nextcloud.com/install/#files-mobile">Android e iOS</a>), facilitando assim a sincronização de ficheiros. Para o esclarecimento de dúvidas relacionadas com a utilização do Nextcloud, devem consultar o respectivo <a href="https://docs.nextcloud.com/server/latest/user_manual/en/">manual do utilizador</a>.</p>
+<h2 id="estrutura">Estrutura<a class="headerlink" href="#estrutura" title="Permanent link">&para;</a></h2>
+<p>Analisemos agora em detalhe a estrutura de pastas do repositório:</p>
+<h3 id="obras-publicadas">Obras Publicadas<a class="headerlink" href="#obras-publicadas" title="Permanent link">&para;</a></h3>
+<p>Esta primeira secção serve de arquivo para as obras publicadas no Projecto Adamastor, sendo estas organizadas por colecção, autor e título. As pastas de cada obra contêm as seguintes subpastas:</p>
+<ul>
+<li><strong>Ficheiros EPUB e MOBI</strong> - Onde constam todas as versões dos ficheiros EPUB e MOBI.</li>
+<li><strong>Imagens</strong> - Reservada para material gráfico, como a capa e ilustrações.</li>
+<li><strong>Revisão</strong> - Para os documentos de texto utilizados durante o processo de revisão, assim como as digitalizações dos originais ou quaisquer outras edições utilizadas como suporte.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Estrutura</p>
+<ul>
+<li>Obras Publicadas<ul>
+<li>Colecção<ul>
+<li>Autor (Apelido, Nome)<ul>
+<li>Título da Obra<ul>
+<li>Ficheiros EPUB e MOBI</li>
+<li>Imagens</li>
+<li>Revisão</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h3 id="outras-publicacoes">Outras Publicações<a class="headerlink" href="#outras-publicacoes" title="Permanent link">&para;</a></h3>
+<p>A actividade do Projecto Adamastor não se resume apenas à edição de obras literárias: no nosso website publicamos também artigos, entrevistas com escritores, inquéritos e diversos outros recursos de referência, como uma <a href="https://projectoadamastor.org/podcasts-literarios/">lista de podcasts literários</a>, uma <a href="https://projectoadamastor.org/cronologia-da-ficcao-especulativa-portuguesa/">cronologia da ficção especulativa portuguesa</a> e uma <a href="https://projectoadamastor.org/base-de-dados-de-livros-digitais/">base de dados de livros digitais</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Estrutura</p>
+<ul>
+<li>Outras Publicações<ul>
+<li>Artigos</li>
+<li>Entrevistas</li>
+<li>Inquéritos</li>
+<li>Bases de Dados</li>
+<li>Outros Recursos</li>
+</ul>
+</li>
+</ul>
+</div>
+<h3 id="trabalhos-em-curso">Trabalhos em Curso<a class="headerlink" href="#trabalhos-em-curso" title="Permanent link">&para;</a></h3>
+<p>Ao contrário das duas primeiras secções, que servem para arquivar material concluído, a secção «Trabalhos em Curso», tal como a designação indica, destina-se a actividades que estão a decorrer. Dentre as actividades possíveis, merece especial destaque o processo de revisão, cuja pasta está dividida nas seguintes fases:</p>
+<ul>
+<li>
+<p><strong>Fase 0 - Transcrição</strong></p>
+<p>Aplicável apenas a obras que não estão disponíveis online, sendo necessário recorrer a programas de reconhecimento óptico de caracteres ou, em casos extremos, à transcrição manual do texto.</p>
+</li>
+<li>
+<p><strong>Fase 1 - Actualização Ortográfica</strong></p>
+<p>Etapa em que começa a maioria dos processos de revisão, após ter sido estabelecido o texto-base.</p>
+</li>
+<li>
+<p><strong>Fase 2 - Cotejo</strong></p>
+<p>Nesta fase, o texto actualizado ortograficamente é cotejado na íntegra com o texto-base.</p>
+</li>
+<li>
+<p><strong>Fase 3 - Leitura Final</strong></p>
+<p>O processo termina com a leitura do ficheiro EPUB por vários colaboradores, de maneira a identificar quaisquer incorrecções que não tenham sido detectadas nas fases anteriores.</p>
+</li>
+</ul>
+<p>Todas as obras que se encontrem em processo de revisão têm uma pasta individual (com estrutura semelhante à anteriormente descrita: Ficheiros EPUB e MOBI, Imagens e Revisão) que vai sendo movida entre fases. Terminado o processo, a pasta é arquivada na secção <a href="../rep-digital/#obras-publicadas">Obras Publicadas</a>. </p>
+<p>Digitalizações de títulos que estão ainda a ser considerados para publicação, devem ser colocados na pasta «Em Avaliação». Documentos que não estejam relacionados com o processo de revisão, como é o caso do material que se destina a ser publicado no website, pertencem à pasta «Conteúdo Original». </p>
+<div class="admonition note">
+<p class="admonition-title">Estrutura</p>
+<ul>
+<li>Trabalhos em Curso<ul>
+<li>Revisão e Conversão<ul>
+<li>Fase 0 - Transcrição</li>
+<li>Fase 1 - Actualização Ortográfica</li>
+<li>Fase 2 - Cotejo</li>
+<li>Fase 3 - Leitura Final</li>
+</ul>
+</li>
+<li>Em Avaliação</li>
+<li>Conteúdo Original</li>
+</ul>
+</li>
+</ul>
+</div>
+<h3 id="templates-e-material-grafico">Templates e Material Gráfico<a class="headerlink" href="#templates-e-material-grafico" title="Permanent link">&para;</a></h3>
+<p>Secção reservada para modelos de documentos de texto ou de capas, assim como para material gráfico utilizado nos eBooks ou no website do projecto:</p>
+<div class="admonition note">
+<p class="admonition-title">Estrutura</p>
+<ul>
+<li>Templates de Documentos</li>
+<li>Templates de Capa</li>
+<li>Tipos de Letra</li>
+<li>Logótipos</li>
+<li>Outro Material Gráfico</li>
+</ul>
+</div>
+<h3 id="documentos-de-suporte">Documentos de Suporte<a class="headerlink" href="#documentos-de-suporte" title="Permanent link">&para;</a></h3>
+<p>Material relevante para o processo de revisão de texto, como manuais de estilo ou dicionários, ou para o acompanhamento da evolução do livro electrónico em Portugal, como artigos e estudos acerca do mercado editorial ou dos hábitos de leitura dos portugueses, pertencem a esta secção.</p>
+<div class="admonition note">
+<p class="admonition-title">Estrutura</p>
+<ul>
+<li>Artigos e Estudos</li>
+<li>Manuais de Estilo</li>
+<li>Dicionários</li>
+</ul>
+</div>
+<h3 id="miscelanea">Miscelânea<a class="headerlink" href="#miscelanea" title="Permanent link">&para;</a></h3>
+<p>Finalmente, quaisquer ficheiros que não se enquadrem nas restantes secções, devem ser arquivados aqui.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  Voltar ao topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../manual-estilo/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Manual de Estilo">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Manual de Estilo
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../proc-edicao/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Processo de Edição">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Processo de Edição
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2026 Projecto Adamastor
+
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.tabs","navigation.top","navigation.tracking","search.highlight"],"search":"../assets/javascripts/workers/search.b6b7e04f.min.js","tags":null,"translations":{"clipboard.copied":"Copiado para área de transferência","clipboard.copy":"Copiar para área de transferência","search.result.more.one":"Mais 1 nesta página","search.result.more.other":"Mais # nesta página","search.result.none":"Nenhum resultado encontrado","search.result.one":"1 resultado encontrado","search.result.other":"# resultados encontrados","search.result.placeholder":"Digite para iniciar a busca","search.result.term.missing":"Ausente","select.version":"Selecione a versão"},"version":null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7f30b55.min.js"></script>
+      
+    
+  </body>
+</html>
